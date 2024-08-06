@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS db_travel_wisata;
-USE db_travel_wisata;
+CREATE DATABASE IF NOT EXISTS pemesanan_wisata;
+USE pemesanan_wisata;
 
 CREATE TABLE IF NOT EXISTS tabel_pemesanan (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,

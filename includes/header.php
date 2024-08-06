@@ -32,28 +32,30 @@
 </head>
 
 <body>
-    <div class="full-screen">
-        <h3 class="text-light">Selamat Datang Di Desa Wisata Pulesari</h3>
-    </div>
+    <div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Beranda <span class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pemesanan_wisata.php">Daftar paket wisata</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="modifikasi_pemesanan.php">Modifikasi Pesanan</a>
-                </li>
-            </ul>
+        <div class="full-screen">
+            <h3 class="text-light">SELAMAT DATANG DI TRAVEL ADVENTURE</h3>
         </div>
-    </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">Beranda <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pemesanan_wisata.php">Daftar paket wisata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modifikasi_pemesanan.php">Modifikasi Pesanan</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 </body>
 
 </html>
