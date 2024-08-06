@@ -56,7 +56,7 @@
         <div class="card w-100">
           <img src="./assets/camping.jpg" class="card-img-top" alt="Camping">
           <div class="card-body d-flex flex-column">
-            <p class="card-text fst-italic"><i class="bi bi-calendar-event"></i> 17 Agustus 2024</p>
+            <p class="card-text fst-italic"><i class="fa-solid fa-calendar-days me-2"></i> 17 Agustus 2024</p>
             <p class="card-text fw-bold">Paket Mendaki Gunung Batur dan Camping</p>
             <p class="card-text text-truncate" title="Gunung Batur merupakan destinasi populer untuk pendaki. Nikmati pemandangan indah dan pengalaman camping yang tak terlupakan di bawah langit berbintang. Trekking ke puncak Gunung Batur menawarkan pemandangan matahari terbit yang spektakuler, membuat pengalaman mendaki ini tidak terlupakan.">Gunung Batur merupakan destinasi populer untuk pendaki. Nikmati pemandangan indah dan pengalaman camping yang tak terlupakan di bawah langit berbintang. Trekking ke puncak Gunung Batur menawarkan pemandangan matahari terbit yang spektakuler, membuat pengalaman mendaki ini tidak terlupakan.</p>
 
@@ -68,7 +68,7 @@
         <div class="card w-100">
           <img src="./assets/jeep.jpg" class="card-img-top" alt="Jeep">
           <div class="card-body d-flex flex-column">
-            <p class="card-text fst-italic"><i class="bi bi-calendar-event"></i> 20 Agustus 2024</p>
+            <p class="card-text fst-italic"><i class="fa-solid fa-calendar-days me-2"></i> 20 Agustus 2024</p>
             <p class="card-text fw-bold">Paket Kuber Bali ATV - Harga Promo</p>
             <p class="card-text text-truncate" title="Nikmati petualangan seru dengan ATV di Bali! Promo spesial untuk liburan Anda, menjelajahi keindahan alam Bali dengan sensasi mengendarai ATV melalui medan off-road yang menantang dan pemandangan alam yang menakjubkan.">Nikmati petualangan seru dengan ATV di Bali! Promo spesial untuk liburan Anda, menjelajahi keindahan alam Bali dengan sensasi mengendarai ATV melalui medan off-road yang menantang dan pemandangan alam yang menakjubkan.</p>
             <a href="pemesanan_wisata.php" class="btn btn-primary mt-auto">Lihat Detail</a>
@@ -91,7 +91,7 @@
         <div class="card w-100">
           <img src="./assets/curug.jpg" class="card-img-top" alt="curug">
           <div class="card-body">
-            <p class="card-text fst-italic">25 Agustus 2024</p>
+            <p class="card-text fst-italic"><i class="fa-solid fa-calendar-days me-2"></i> 25 Agustus 2024</p>
             <p class="card-text fw-bold">Paket Curug untuk 10 Orang</p>
             <p class="card-text text-truncate" title="Nikmati keindahan curug dengan paket spesial kami untuk 10 orang. Paket ini mencakup kunjungan ke lokasi curug yang menakjubkan, dengan berbagai aktivitas outdoor dan pemandangan alam yang memukau. Dapatkan pengalaman yang tak terlupakan bersama keluarga atau teman dengan paket lengkap kami, yang dirancang untuk memberikan kenyamanan dan kesenangan maksimal selama liburan Anda.">Nikmati keindahan curug dengan paket spesial kami untuk 10 orang. Paket ini mencakup kunjungan ke lokasi curug yang menakjubkan, dengan berbagai aktivitas outdoor dan pemandangan alam yang memukau. Dapatkan pengalaman yang tak terlupakan bersama keluarga atau teman dengan paket lengkap kami, yang dirancang untuk memberikan kenyamanan dan kesenangan maksimal selama liburan Anda.</p>
             <a href="pemesanan_wisata.php" class="btn btn-primary mt-auto">Lihat Detail</a>
@@ -102,7 +102,7 @@
         <div class="card w-100">
           <img src="./assets/gunung.jpg" class="card-img-top" alt="gunung">
           <div class="card-body">
-            <p class="card-text fst-italic">28 Agustus 2024</p>
+            <p class="card-text fst-italic"><i class="fa-solid fa-calendar-days me-2"></i> 28 Agustus 2024</p>
             <p class="card-text fw-bold">Paket Gunung BROMO untuk 6 Orang</p>
             <p class="card-text text-truncate" title="Eksplorasi Gunung Bromo dengan paket spesial untuk 6 orang kami. Paket ini termasuk perjalanan ke puncak Gunung Bromo untuk menikmati matahari terbit yang mempesona, serta eksplorasi sekitar kawasan Bromo yang terkenal dengan lanskap vulkaniknya yang unik. Dengan berbagai pilihan aktivitas dan kenyamanan yang disediakan, paket ini cocok untuk liburan bersama kelompok atau keluarga.">Eksplorasi Gunung Bromo dengan paket spesial untuk 6 orang kami. Paket ini termasuk perjalanan ke puncak Gunung Bromo untuk menikmati matahari terbit yang mempesona, serta eksplorasi sekitar kawasan Bromo yang terkenal dengan lanskap vulkaniknya yang unik. Dengan berbagai pilihan aktivitas dan kenyamanan yang disediakan, paket ini cocok untuk liburan bersama kelompok atau keluarga.">Eksplorasi Gunung Bromo dengan paket spesial untuk 6 orang kami. Paket ini termasuk perjalanan ke puncak Gunung Bromo untuk menikmati matahari terbit yang mempesona, serta eksplorasi sekitar kawasan Bromo yang terkenal dengan lanskap vulkaniknya yang unik. Dengan berbagai pilihan aktivitas dan kenyamanan yang disediakan, paket ini cocok untuk liburan bersama kelompok atau keluarga.">Eksplorasi Gunung Bromo dengan paket spesial untuk 6 orang kami. Paket ini termasuk perjalanan ke puncak Gunung Bromo untuk menikmati matahari terbit yang mempesona, serta eksplorasi sekitar kawasan Bromo yang terkenal dengan lanskap vulkaniknya yang unik. Dengan berbagai pilihan aktivitas dan kenyamanan yang disediakan, paket ini cocok untuk liburan bersama kelompok atau keluarga.</p>
             <a href="pemesanan_wisata.php" class="btn btn-primary mt-auto">Lihat Detail</a>

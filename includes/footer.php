@@ -22,24 +22,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h5>About Us</h5>
-                    <p>We offer a variety of adventure travel packages to explore the beauty of Bali. Join us for unforgettable experiences.</p>
+                    <h5>Tentang Kami</h5>
+                    <p>Kami menawarkan berbagai paket perjalanan petualangan untuk menjelajahi keindahan Alam di Indonesia. Bergabunglah bersama kami untuk pengalaman yang tak terlupakan.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Contact</h5>
                     <p>Email: info@traveladventure.com</p>
-                    <p>Phone: +62 123 456 789</p>
+                    <p>Telp: +62 123 456 789</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Follow Us</h5>
+                    <h5>Follow Kami</h5>
                     <div class="d-flex justify-content-center align-items-center flex-column">
-                        <a href="#" class="text-white link-light text-decoration-none mb-2 d-flex align-items-center hover-effect">
+                        <a href="https://www.facebook.com/?locale=id_ID" target="_blank" class="text-white link-light text-decoration-none mb-2 d-flex align-items-center hover-effect">
                             <i class="fa-brands fa-facebook me-2"></i> Facebook
                         </a>
-                        <a href="#" class="text-white link-light text-decoration-none mb-2 d-flex align-items-center hover-effect">
+                        <a href="https://www.instagram.com/" target="_blank" class="text-white link-light text-decoration-none mb-2 d-flex align-items-center hover-effect">
                             <i class="fa-brands fa-instagram me-2"></i> Instagram
                         </a>
-                        <a href="#" class="text-white link-light text-decoration-none d-flex align-items-center hover-effect">
+                        <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank" class="text-white link-light text-decoration-none d-flex align-items-center hover-effect">
                             <i class="fa-brands fa-x-twitter me-2"></i> Twitter
                         </a>
                     </div>

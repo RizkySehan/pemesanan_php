@@ -17,7 +17,7 @@
 
 <body>
     <div class="card">
-        <h5 class="card-header text-white bg-secondary">Create / Edit Data</h5>
+        <h5 class="card-header text-white bg-secondary">Form Pemesanan Paket Travel Adventure</h5>
         <div class="card-body">
             <form action="" method="POST" id="formPemesanan">
                 <div class="mb-3">
@@ -117,7 +117,6 @@
         $namaPemesan = $_POST['namaPemesan'];
         $noHp = $_POST['noHp'];
         $tanggalPesan = $_POST['date'];
-        $waktuPelaksanaan = $_POST['time'];
         $jumlahPeserta = $_POST['participants'];
         $jumlahHari = $_POST['time'];
         $akomodasi = isset($_POST['penginapan']) ? 1 : 0;
