@@ -34,8 +34,8 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="time" class="form-label">Waktu Pelaksanaan Perjalanan:</label>
-                    <input type="text" class="form-control" id="time" name="time" required>
+                    <label for="time" class="form-label">Jumlah Hari:</label>
+                    <input type="number" class="form-control" id="time" name="time" required>
                 </div>
 
                 <div class="mb-3">
@@ -83,14 +83,9 @@
 
 
     <script>
-        document.getElementById('formPemesanan').addEventListener('submit', function(event) {
-            if (!document.getElementById('price').value || !document.getElementById('total').value) {
-                event.preventDefault();
-                alert('Silakan klik tombol "Hitung" terlebih dahulu untuk menghitung harga sebelum menyimpan.');
-            }
-        });
+        let isHitungClicked = false; // Variabel untuk menyimpan status klik tombol Hitung
 
-        document.getElementById('hitung').addEventListener('click', function() {
+        function simpanPriceAndTotal() {
             let hargaPenginapan = document.getElementById('penginapan').checked ? 1000000 : 0;
             let hargaTransportasi = document.getElementById('transportasi').checked ? 1200000 : 0;
             let hargaMakanan = document.getElementById('makanan').checked ? 500000 : 0;
@@ -103,10 +98,47 @@
 
             document.getElementById('price').value = totalHargaLayanan;
             document.getElementById('total').value = totalTagihan;
+        }
+
+        document.getElementById('formPemesanan').addEventListener('submit', function(event) {
+            if (!isHitungClicked) {
+                event.preventDefault();
+                alert('Silakan klik tombol "Hitung" terlebih dahulu untuk menghitung harga sebelum menyimpan.');
+            }
+        });
+
+        document.getElementById('hitung').addEventListener('click', function() {
+            simpanPriceAndTotal();
+            isHitungClicked = true; // Set status klik tombol Hitung ke true
+            document.getElementById('simpan').disabled = false; // Aktifkan tombol Simpan
+        });
+
+        // Event listeners untuk setiap perubahan input relevan
+        document.getElementById('participants').addEventListener('input', function() {
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
+        });
+        document.getElementById('time').addEventListener('input', function() {
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
+        });
+        document.getElementById('penginapan').addEventListener('change', function() {
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
+        });
+        document.getElementById('transportasi').addEventListener('change', function() {
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
+        });
+        document.getElementById('makanan').addEventListener('change', function() {
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
         });
 
         document.getElementById('reset').addEventListener('click', function() {
             document.getElementById('formPemesanan').reset();
+            isHitungClicked = false; // Reset status klik tombol Hitung
+            document.getElementById('simpan').disabled = true; // Nonaktifkan tombol Simpan
         });
     </script>
 
@@ -129,7 +161,7 @@
                 VALUES ('$namaPemesan', '$noHp', '$jumlahPeserta', '$jumlahHari', '$akomodasi', '$transportasi', '$serviceMakanan', '$hargaPaket', '$totalTagihan')";
 
         if ($conn->query($sql) === TRUE) {
-            echo "Data berhasil disimpan!";
+            echo "<script>alert('Data berhasil disimpan!'); window.location.href='modifikasi_pemesanan.php';</script>";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }

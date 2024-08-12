@@ -7,7 +7,7 @@ if (isset($_GET['confirm']) && $_GET['confirm'] == 'yes') {
     $sql = "DELETE FROM tabel_pemesanan WHERE id='$id'";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        header("Location: modifikasi_pemesanan.php");
     } else {
         echo "Error deleting record: " . $conn->error;
     }
@@ -21,6 +21,6 @@ if (isset($_GET['confirm']) && $_GET['confirm'] == 'yes') {
     if (confirm("Apakah anda ingin menghapus pesanan?")) {
         window.location.href = "<?php echo $_SERVER['PHP_SELF']; ?>?id=<?php echo $id; ?>&confirm=yes";
     } else {
-        window.location.href = "index.php";
+        window.location.href = "modifikasi_pemesanan.php";
     }
 </script>

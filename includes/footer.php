@@ -26,7 +26,7 @@
                     <p>Kami menawarkan berbagai paket perjalanan petualangan untuk menjelajahi keindahan Alam di Indonesia. Bergabunglah bersama kami untuk pengalaman yang tak terlupakan.</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Contact</h5>
+                    <h5>Kontak</h5>
                     <p>Email: info@traveladventure.com</p>
                     <p>Telp: +62 123 456 789</p>
                 </div>
@@ -47,7 +47,7 @@
 
             </div>
             <hr class="bg-light">
-            <p class="mb-0">&copy; 2024 Travel Adventure. All Rights Reserved.</p>
+            <p class="mb-0">&copy; 2024 Muhammad Rizky Ramdhani. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
